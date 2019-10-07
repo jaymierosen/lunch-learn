@@ -11,11 +11,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff;
-  background-color: #fff; }
+  background:#F5F5F5;
+  background-color:#F5F5F5;
+}
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family:  sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #222; }
@@ -45,8 +46,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #222;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: #3a3a3a;
+  font-family:  sans-serif;
   line-height: 1.2;
   letter-spacing: normal;
   /* text-transform: uppercase; */
@@ -54,16 +55,16 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 1.4em; font-weight: 600; }
+  font-size: 1.2em; font-weight: 600; }
 
 .reveal h2 {
-  font-size: 1.3em; }
+  font-size: 1em; }
 
 .reveal h3 {
-  font-size: 1.2em; }
+  font-size: 0.8em; }
 
 .reveal h4 {
-  font-size: 1em; }
+  font-size: 0.6em; }
 
 .reveal h1 {
   text-shadow: none; }
@@ -208,16 +209,18 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: ghostwhite;
+  color: #fff;
+  background: #9932CC;
   text-decoration: none;
+  padding: 4px;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
-.reveal a:hover {
-  color: #6ca0e8;
+/* .reveal a:hover {
+  color: #9932CC;
   text-shadow: none;
-  border: none; }
+  border: none; } */
 
 .reveal .roll span:after {
   color: #fff;
